@@ -147,7 +147,7 @@ open class ALProgressRing: UIView {
         setup()
     }
 
-    public override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         configureRing()
         styleRingLayer()
